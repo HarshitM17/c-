@@ -15,7 +15,7 @@ int main(){
 	for(r=0;r<h;++r)
 		for (s=0;s<a;++s)
 		{
-			cout << "Enter element first_matrix_" << r + 1 << s + 1 << " : ";
+			cout << "Enter element of first_matrix_" << r + 1 << s + 1 << " : ";
 			cin >> first[r][s];
 		}
 		
