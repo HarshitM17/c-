@@ -4,10 +4,10 @@ using namespace std;
 int main(){
 	int h,a,r,s,first[10][10], second[10][10], sum[10][10];
 	
-	cout<<"Req no of rows 1st: ";
+	cout<<"Req no of rows: ";
 	cin>>h;
 	
-	cout<<"Req no of rows 2nd: ";
+	cout<<"Req no of columns: ";
 	cin>>a;
 	
 	cout << endl << "Enter elements of 1st matrix: " << endl;
