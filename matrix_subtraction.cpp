@@ -4,10 +4,10 @@ using namespace std;
 int main(){
 	int h,a,r,s,first[10][10], second[10][10], sum[10][10];
 	
-	cout<<"Req no of rows 1st: ";
+	cout<<"Req no of rows: ";
 	cin>>h;
 	
-	cout<<"Req no of rows 2nd: ";
+	cout<<"Req no of columns: ";
 	cin>>a;
 	
 	cout << endl << "Enter elements of 1st matrix: " << endl;
@@ -15,7 +15,7 @@ int main(){
 	for(r=0;r<h;++r)
 		for (s=0;s<a;++s)
 		{
-			cout << "Enter element a" << r + 1 << s + 1 << " : ";
+			cout << "Enter element of first_matrix_" << r + 1 << s + 1 << " : ";
 			cin >> first[r][s];
 		}
 		
@@ -24,7 +24,7 @@ int main(){
 	for(r=0;r<h;++r)
 		for (s=0;s<a;++s)
        {
-           cout << "Enter element b" << r + 1 << s + 1 << " : ";
+           cout << "Enter element second_matrix_" << r + 1 << s + 1 << " : ";
            cin >> second[r][s];
        }
     
