@@ -33,7 +33,7 @@ int main(){
         for(s = 0; s < a; ++s)
             sub[r][s] = first[r][s]-second[r][s];
             
-    cout << endl << "Sum of two matrix is: " << endl;
+    cout << endl << "Sub of two matrix is: " << endl;
     
     for(r = 0; r<h; ++r)
         for(s = 0; s < a; ++s)
