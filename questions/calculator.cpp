@@ -26,7 +26,7 @@ int main(){
         cout<<"Answer is: "<<a/b<<endl;
         break;
     default:
-        cout<<"Not correct input!!";
+        cout<<"Incorrect input!!";
         break;
     }
     return 0;
