@@ -22,10 +22,6 @@ int main(){
             cout<<"prime number:";
             cout<<num<<endl;
         }
-    }
-    
-    
-    
-    
+    }    
     return 0;
 }
